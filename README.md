@@ -1,1 +1,1 @@
-# obenkyo-rspec
+RSpecのお勉強リポジトリ
