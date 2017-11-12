@@ -1,7 +1,19 @@
-describe '何らかの理由で実行したくないクラス' do
-  xit '実行したくないテスト' do
-    expect(1 + 2).to eq 3
+xdescribe '四則演算' do
+  it '1 + 1 は 2 になること' do
+    expect(1 + 1).to eq 2
+  end
 
-    expect(foo).to eq bar
+  it '10 - 1 は 9 になること' do
+    expect(10 -1).to eq 9
+  end
+end
+
+xcontext '管理者の場合' do
+  it '社員情報を編集できる' do
+
+  end
+
+  it '社員情報を削除できる' do
+
   end
 end
