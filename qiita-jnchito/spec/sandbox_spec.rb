@@ -1,9 +1,7 @@
-describe '繊細なクラス' do
-  it '繊細なテスト' do
+describe '何らかの理由で実行したくないクラス' do
+  xit '実行したくないテスト' do
     expect(1 + 2).to eq 3
 
-    skip 'この先はなぜかテストが失敗するのであとで直す'
-
-    expect(1 + 1).to eq 2
+    expect(foo).to eq bar
   end
 end
