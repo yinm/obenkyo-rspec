@@ -1,6 +1,10 @@
 describe User do
   describe '#greet' do
-    let(:params) { { name: 'たろう' } }
+    let(:params) do
+      hash = {}
+      hash[:name] = 'たろう'
+      hash
+    end
 
     context '12歳以下の場合' do
       before do
