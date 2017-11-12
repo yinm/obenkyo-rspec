@@ -1,8 +1,6 @@
-describe '繊細なクラス' do
-  it '繊細なテスト' do
+describe 'matcher' do
+  it '動作確認' do
     expect(1 + 2).to eq 3
-
-    pending 'この先はあとで直す'
-    expect(foo).to eq bar
+    expect([1, 2, 3]).to include 2
   end
 end
