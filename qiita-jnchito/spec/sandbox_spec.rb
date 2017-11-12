@@ -1,13 +1,8 @@
-describe '四則演算' do
-  describe '足し算' do
-    it '1 + 1 は 2 になること' do
-      expect(1 + 1).to eq 2
-    end
-  end
+describe '繊細なクラス' do
+  it '繊細なテスト' do
+    expect(1 + 2).to eq 3
 
-  describe '引き算' do
-    it '10 - 1 は 9 になること' do
-      expect(10 - 1).to eq 9
-    end
+    pending 'この先はあとで直す'
+    expect(foo).to eq bar
   end
 end
