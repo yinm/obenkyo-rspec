@@ -1,5 +1,5 @@
 describe WeatherBot do
-  describe '#tweet_forecast' do
+  describe '#tweet_forecast_2nd' do
     it 'エラーなく予報をツイートすること' do
       twitter_client_mock = double('Twitter client')
       allow(twitter_client_mock).to receive(:update)
